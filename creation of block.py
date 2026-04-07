@@ -99,3 +99,28 @@ if __name__ == "__main__":
     })
     university_chain.display_chain()
     university_chain.verify_chain()
+
+# -------------------- RUN COMMAND --------------------
+# cd path\to\your\folder
+# python blockchain.py
+
+
+# -------------------- EXPECTED OUTPUT --------------------
+# UNIVERSITY CERTIFICATE VERIFICATION BLOCKCHAIN
+# Genesis Block created successfully!
+# Block 0 mined! Hash: 00a3f...
+# Block 1 added to the blockchain.
+# Block 1 mined! Hash: 00b7c...
+# ...
+
+# ========== BLOCKCHAIN DISPLAY ==========
+# ============================================================
+#   Block Index     : 0
+#   Timestamp       : 2024-xx-xx xx:xx:xx
+#   Transactions    : Genesis Block - University Certificate System
+#   Previous Hash   : 0
+#   Current Hash    : 00a3f...
+# ============================================================
+# ...
+
+# ✅ Blockchain is VALID - All blocks verified!
