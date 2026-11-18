@@ -123,6 +123,3 @@ Violating either condition reverts the transaction and restores the previous sta
 
 ## Tech Stack
 Solidity `^0.8.0` | Remix IDE | Remix VM (London)
-
-## License
-This project is licensed under the MIT License.
